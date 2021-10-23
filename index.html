@@ -8,6 +8,11 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -19,7 +24,7 @@
   <body>
     <main>
       <div class="container">
-        <div class="avatar">
+        <div class="avatar animate__animated animate__fadeInDown">
           <span>
             <img src="images/build.svg" alt="Selo Rocketseat" />
           </span>
@@ -30,17 +35,24 @@
           />
         </div>
 
-        <h1 id="userName">Paulo Juniel</h1>
-        <a id="userLink" href="https://github.com/maykbrito" target="_blank">
+        <h1 id="userName" class="animate__animated animate__fadeInDown">
+          Paulo Juniel
+        </h1>
+        <a
+          id="userLink"
+          href="https://github.com/maykbrito"
+          target="_blank"
+          class="animate__animated animate__fadeInUp"
+        >
           <img src="images/github.svg" alt="ícone github" />
           <span id="userLogin">paulojuniel</span></a
         >
 
-        <p id="userBio">
+        <p id="userBio" class="animate__animated animate__fadeInUp">
           An instructor focused on helping pople start programming for web
         </p>
 
-        <ul id="socialLinks">
+        <ul id="socialLinks" class="animate__animated animate__bounceInLeft">
           <li class="youtube">
             <a href="https://youtube.com/maykbrito" target="_blank">
               <img src="images/youtube.svg" alt="ícone youtube" />
